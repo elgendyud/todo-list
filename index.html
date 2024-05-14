@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="time"></div>
+    <div class="bar">
+        <h2>To-Do List</h2>
+        <p>Best Solution for Task Management</p>
+    </div>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="What's your plan for Today?">
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="clearTask()">Clear Task List</button>
+        <div class="tasks">
+            <div class="task-list">
+                <h3>Tasks</h3>
+                <ol id="taskList"></ol>
+            </div>
+            <div class="completed">
+                <h3>Completed Tasks</h3>
+                <ol id="completedTaskList"></ol>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</script>
+</body>
+</html>
